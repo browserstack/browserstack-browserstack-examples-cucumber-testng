@@ -56,6 +56,11 @@
             <version>2.18.1</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.15.1</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -86,7 +91,7 @@
                     <version>3.0.0-M5</version>
                     <configuration>
                         <suiteXmlFiles>
-                            <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+                            <suiteXmlFile>src/test/resources/conf/testng.xml</suiteXmlFile>
                         </suiteXmlFiles>
                         <argLine>
                             -javaagent:${com.browserstack:browserstack-java-sdk:jar}
