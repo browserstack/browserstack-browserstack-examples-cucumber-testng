@@ -1,0 +1,3 @@
+[submodule "cucumber-reporting"]
+	path = cucumber-reporting
+	url = https://github.com/damianszczepanik/cucumber-reporting
